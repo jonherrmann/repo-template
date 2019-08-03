@@ -1,13 +1,45 @@
 *.class
 .DS_Store
 .gradle
-.idea
 hs_err_pid*
-*.iml
 *.log
-build
-/out
+build/
+out/
 outputFileStates.bin
 *.licensed
-.DS_Store
 /build-dependencies.txt
+local.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Eclipse ###
+.target
+.texlipse
+.cache-main
+.scala_dependencies
+.worksheet
+*.launch
+.project
+.settings
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
