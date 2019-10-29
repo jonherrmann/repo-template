@@ -43,3 +43,11 @@ local.properties
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Scala ###
+target/
+boot/
+lib_managed/
+src_managed/
+project/plugins/project/
+.metals
